@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccc2c2;
+}
+
+header {
+    background-color: #0b0b59d6;
+    color: #ffffff;
+    line-height: 50px;
+    width: 100%;
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #ff5900;
+}
+
+
+main {
+    padding: 40px ;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: black
+}
+
+/* Work Section Styles */
+.work {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work h2 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+img {
+    width: 270px;
+    padding: 3px;
+    border: 4px solid red;
+    background-color: black;
+    float: right;
+}
+
+.image1{
+width: 270px;
+}
+
+.image2{
+    width: 270px;
+}
+footer {
+    background-color: #1b1b44;
+    color: #ffffff;
+    line-height: 40px;
+}
