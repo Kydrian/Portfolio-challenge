@@ -98,12 +98,29 @@ img {
     float: right;
 }
 
+#smallproject {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#landingpage img, #Hero img {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .image1{
 width: 270px;
+display: flex;
+flex-wrap: wrap;
 }
 
 .image2{
     width: 270px;
+    display: flex;
+    flex-wrap: wrap;
 }
 footer {
     background-color: #1b1b44;
